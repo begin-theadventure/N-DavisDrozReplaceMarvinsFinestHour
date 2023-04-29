@@ -1,0 +1,16 @@
+{
+	"Name" : "ඞb-ta.DavisDrozReplaceMarvinsFinestHour",
+	"Description" : "-Replaces Marvin's Finest Hour faction with Davis & Droz.\nThis is an edit of Cpone's DavisDrozReplaceGates.\nbegin-theadventure 2023",
+	"Version": "ඞ1.0.0",
+	"LoadPriority": 1,
+
+	"Scripts": [
+		{
+			"Path": "cl_marvin.gnut",
+			"RunOn": "CLIENT && MP",
+			"ClientCallback": {
+				"Before": "ClDavisDrozReplaceMarvinsFinestHourInit"
+			}
+		}
+	]
+}
